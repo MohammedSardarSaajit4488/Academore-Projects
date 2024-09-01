@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Places in India</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 90%;
+            left: 5%;
+            top: 10px;
+            z-index: 1000;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .container {
+            margin-top: 150px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .image-box {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            perspective: 1000px;
+        }
+        .image-box-inner {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        .image-box:hover .image-box-inner {
+            transform: rotateY(180deg);
+        }
+        .image-box-front,
+        .image-box-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 20px;
+        }
+        .image-box-front img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        .image-box-back {
+            background-color: #333;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: rotateY(180deg);
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+            border-radius: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            width: 90%;
+            left: 5%;
+            margin-top: 20px;
+            border-radius: 20px;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Historical Places in India</h1>
+    </div>
+    <div class="container">
+        <div class="image-box">
+            <div class="image-box-inner">
+                <div class="image-box-front">
+                    <img src="1.jpg" alt="Historical Place 1">
+                </div>
+                <div class="image-box-back">
+                    <p>A towering 73-meter tall minaret in Delhi, it is a UNESCO World Heritage site. Built in 1193, it is the tallest brick minaret in the world and a masterpiece of Indo-Islamic Afghan architecture.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image-box">
+            <div class="image-box-inner">
+                <div class="image-box-front">
+                    <img src="2.jpg" alt="Historical Place 2">
+                </div>
+                <div class="image-box-back">
+                    <p>A historical city near Agra, built by Emperor Akbar as the capital of the Mughal Empire in the late 16th century. It's known for its stunning palaces, courtyards, and the iconic Buland Darwaza.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image-box">
+            <div class="image-box-inner">
+                <div class="image-box-front">
+                    <img src="3.avif" alt="Historical Place 3">
+                </div>
+                <div class="image-box-back">
+                    <p>One of the Seven Wonders of the World, this white marble mausoleum in Agra was built by Mughal Emperor Shah Jahan in memory of his beloved wife, Mumtaz Mahal. It's renowned for its stunning architecture and intricate carvings.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image-box">
+            <div class="image-box-inner">
+                <div class="image-box-front">
+                    <img src="4.jpg" alt="Historical Place 4">
+                </div>
+                <div class="image-box-back">
+                    <p>Located on Elephanta Island near Mumbai, these rock-cut caves date back to the 5th to 8th centuries and are dedicated to Lord Shiva. They are known for their impressive carvings and sculptures, especially the three-headed Shiva known as Trimurti.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image-box">
+            <div class="image-box-inner">
+                <div class="image-box-front">
+                    <img src="5.jpg" alt="Historical Place 3">
+                </div>
+                <div class="image-box-back">
+                    <p>A UNESCO World Heritage site located in Maharashtra, this complex of rock-cut caves is famous for its temples and monasteries that represent Buddhism, Hinduism, and Jainism, with the Kailasa temple being the most notable.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image-box">
+            <div class="image-box-inner">
+                <div class="image-box-front">
+                    <img src="6.webp" alt="Historical Place 3">
+                </div>
+                <div class="image-box-back">
+                    <p>Also known as Lal Qila, this iconic fort in Delhi was the main residence of the Mughal emperors for nearly 200 years. It's a symbol of India's independence, with the Prime Minister hoisting the national flag here every Independence Day.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image-box">
+            <div class="image-box-inner">
+                <div class="image-box-front">
+                    <img src="7.jpg" alt="Historical Place 3">
+                </div>
+                <div class="image-box-back">
+                    <p>A majestic war memorial located in New Delhi, built in memory of the Indian soldiers who died during World War I. It stands as a symbol of national pride and patriotism.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image-box">
+            <div class="image-box-inner">
+                <div class="image-box-front">
+                    <img src="8.jpg" alt="Historical Place 3">
+                </div>
+                <div class="image-box-back">
+                    <p> A UNESCO World Heritage site in Agra, this massive red sandstone fort was the main residence of the Mughal emperors until 1638. It houses several beautiful palaces and mosques.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add more image-boxes as needed -->
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Historical Places in India.</p>
+    </div>
+</body>
+</html>
