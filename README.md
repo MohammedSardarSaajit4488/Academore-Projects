@@ -2,7 +2,7 @@
 
 ## Preview
 
-![Weather Forecast App Preview](https://your-image-url.com/image.jpg)
+![Weather Forecast App Preview](https://github.com/MohammedSardarSaajit4488/Academore-Projects/blob/main/weather%20app%20Major%20Project/Preview.png)
 
 ## Overview
 
