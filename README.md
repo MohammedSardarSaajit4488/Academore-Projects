@@ -1,5 +1,9 @@
 # Weather Forecast App
 
+## Preview
+
+![Weather Forecast App Preview](https://your-image-url.com/image.jpg)
+
 ## Overview
 
 The **Weather Forecast App** is a simple web application that allows users to search for current weather conditions and a 7-day forecast for any city around the world. The app fetches real-time data from the OpenWeather API and displays it with intuitive visualizations, including temperature and humidity charts.
