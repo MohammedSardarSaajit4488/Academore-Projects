@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <form>
+                <input type="text" id="name" placeholder="Enter city name">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+
+            <div class="section result">
+                <figure class="name">
+                    <img src="" alt="Country flag">
+                    <figcaption></figcaption>
+                </figure>
+
+                <figure class="temperature">
+                    <img src="" alt="Weather icon">
+                    <figcaption><span></span> <sup>°C</sup></figcaption>
+                </figure>
+
+                <p class="description"></p>
+
+                <ul>
+                    <li><i class="fas fa-cloud"></i> clouds <span id="clouds"></span>%</li>
+                    <li><i class="fas fa-tint"></i> humidity <span id="humidity"></span>%</li>
+                    <li><i class="fas fa-wind"></i> wind <span id="wind"></span>m/s</li>
+                </ul>
+
+                <p class="datetime"></p>
+            </div>
+
+            <div class="forecast-options">
+                <h2>7-Day Forecast Graphs</h2>
+                <button id="tempButton" class="forecast-button">
+                    <i class="fas fa-temperature-high"></i> Temperature
+                </button>
+                <button id="humidityButton" class="forecast-button">
+                    <i class="fas fa-tint"></i> Humidity
+                </button>
+            </div>
+        </main>
+
+        <aside class="graph-container">
+            <div id="temperatureBox" class="graph-box temperature-box">
+                <div class="graph-header">
+                    <i class="fas fa-temperature-high"></i>
+                    <h3>Temperature Forecast</h3>
+                </div>
+                <canvas id="temperatureChart"></canvas>
+            </div>
+            <div id="humidityBox" class="graph-box humidity-box">
+                <div class="graph-header">
+                    <i class="fas fa-tint"></i>
+                    <h3>Humidity Forecast</h3>
+                </div>
+                <canvas id="humidityChart"></canvas>
+            </div>
+        </aside>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
