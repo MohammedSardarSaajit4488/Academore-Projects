@@ -98,4 +98,4 @@ Dark Mode: Include a toggle for dark mode to enhance user experience at night.
 Multilingual Support: Implement support for multiple languages.
 
 License
-This project is licensed under the MIT License.
+This project is licensed under the GNU General Public License.
